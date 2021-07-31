@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         #results.append(
         #        [
-        #            InlineKeyboardButton("⭕️ JOIN OUR MAIN CHANNEL ⭕️", url="https://t.me/UFStudio2")
+        #            InlineKeyboardButton("⭕️ JOIN OUR MAIN CHANNEL ⭕️", url="https://t.me/parkboyschat")
         #        ]
         #    ) 
         for filter in filters: # iterating through each files
@@ -89,7 +89,7 @@ async def auto_filter(bot, update):
             file_name = size + " - 🎬 " + file_name
             
             print(file_name)
-            #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GiB"  #"📁 " + 
+            #file_size = str(file_size) + " KB" if file_size < 1024 elif file_size < 1024 else str(round(file_size/1024)) + " GB"  #"📁 " + 
             
             if file_type == "video":
                 if allow_video: 
@@ -166,13 +166,13 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Next >>", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"^ Page 1/{len_result if len_result < max_pages else max_pages} ^", callback_data="ignore")
         ])
         
         
@@ -219,7 +219,7 @@ async def auto_filter(bot, update):
         ibuttonss = []
         ibuttonss.append(
                         [
-                            InlineKeyboardButton("⭕️ CONTACT ME ⭕️", url="https://t.me/UFSChatBot")
+                            InlineKeyboardButton("⭕️ CONTACT ME ⭕️", url="https://t.me/ParkBoiBotz")
                         ]
                     )
         for x in ibuttonss:
