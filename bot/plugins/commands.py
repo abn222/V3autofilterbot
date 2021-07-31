@@ -30,14 +30,14 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = f"{file_name} \n @parkboyschat",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎭 ⭕️ FOR YOUR QUERY, CONTACT ME ⭕️', url="https://t.me/UFSChatBot"
+                                    '🎭 ℙ𝕒𝕣𝕜 𝕄𝕠𝕧𝕚𝕖𝕤 🎭', url="https://t.me/parkboyschat"
                                 )
                         ]
                     ]
@@ -49,10 +49,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/joinchat/TRlZZilyh-MVa66t'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/joinchat/YS-WlsUC9nFiOWM0')
+        InlineKeyboardButton('Developers', url='https://t.me/joinchat/ParkBoiBotz'),
+        InlineKeyboardButton('ℙ𝕒𝕣𝕜 𝕄𝕠𝕧𝕚𝕖𝕤', url ='https://t.me/joinchat/parkboyschat')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/YS-WlsUC9nFiOWM0')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/joinchat/ParkBoiBotz')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
