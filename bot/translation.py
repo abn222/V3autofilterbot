@@ -6,13 +6,13 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>Am Just A @parkboyschat Family.You Can't Cantroll me....😉
 
-Only For <b><u><a href="https://t.me/joinchat/TRlZZilyh-MVa66t">Universal Film Studio Group</a></u></b>
+Only For <b><u><a href="https://t.me/joinchat/parkboyschat">PB Group</a></u></b>
 
 For More Details Click Help Button Below..
 
-<b><u><a href="https://t.me/joinchat/YS-WlsUC9nFiOWM0">UFS Bot Support Group</a></u></b>
+<b><u><a href="https://t.me/joinchat/parkboyschat">Movies Group</a></u></b>
 </i>"""    
     
     HELP_TEXT = """
